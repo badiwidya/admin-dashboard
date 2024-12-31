@@ -24,3 +24,12 @@ li {
 }
 
 /* ================== */
+
+body {
+  font-family: "Poppins", Roboto, serif, sans-serif;
+  display: grid;
+  grid-template-areas: "side header"
+                       "side main";
+  grid-template-columns: 1fr 4fr;
+  background-color: #121212;
+}
