@@ -102,3 +102,13 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
+
+.top-header-section {
+  display: grid;
+  grid-template-columns: max(80%, 10rem) 1fr;
+}
+
+.top-left,
+.top-left > label {
+  display: flex;
+}
