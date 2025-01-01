@@ -80,7 +80,6 @@ body {
 
 .side-child {
   display: flex;
-  outline: 1px solid red;
   width: 100%;
   gap: 20px;
   padding: 8px 24px;
