@@ -112,3 +112,35 @@ body {
 .top-left > label {
   display: flex;
 }
+
+.top-left > label {
+  width: 80%;
+  align-items: center;
+}
+
+#search-box {
+  appearance: none;
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-radius: 26px;
+  background-color: #5f5f5f;
+  padding: 1px 14px;
+  font-size: 14px;
+  color: white;
+  box-shadow: none;
+  &:focus {
+    background-color: #3f3f3f;
+    border: 1px solid grey;
+  }
+  &::-webkit-search-cancel-button {
+    position: relative;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: url("/assets/clear.svg") no-repeat;
+    background-size: contain;
+    opacity: 0.7;
+  }
+}
