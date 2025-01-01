@@ -90,4 +90,8 @@ body {
     width: 25px;
     height: auto;
   }
+  &:hover {
+    cursor: pointer;
+    background-color: #222222;
+  }
 }
