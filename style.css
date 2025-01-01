@@ -55,13 +55,17 @@ body {
 /* ==========Sidebar CSS========== */
 
 .sidebar {
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 .side-header {
   display: flex;
   gap: 10px;
   align-items: center;
+  margin-top: 16px;
+  margin-left: 16px;
   img {
     width: 3rem;
     height: auto;
@@ -74,3 +78,17 @@ body {
   }
 }
 
+.side-child {
+  display: flex;
+  outline: 1px solid red;
+  width: 100%;
+  gap: 20px;
+  padding: 8px 24px;
+  h3 {
+    font-weight: 500;
+  }
+  img {
+    width: 25px;
+    height: auto;
+  }
+}
