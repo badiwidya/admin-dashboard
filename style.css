@@ -33,6 +33,7 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 160px 1fr;
   height: 100vh;
+  color: rgba(255, 255, 255, 0.904);
 }
 
 .sidebar {
