@@ -106,6 +106,7 @@ body {
 .top-header-section {
   display: grid;
   grid-template-columns: max(80%, 10rem) 1fr;
+  padding: 4px 2rem;
 }
 
 .top-left,
@@ -116,11 +117,12 @@ body {
 .top-left > label {
   width: 80%;
   align-items: center;
+  gap: 16px;
 }
 
 #search-box {
   appearance: none;
-  height: 40px;
+  height: 35px;
   width: 80%;
   border: none;
   border-radius: 26px;
