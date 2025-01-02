@@ -146,3 +146,11 @@ body {
     opacity: 0.7;
   }
 }
+
+.top-left > img {
+  margin-right: 24px;
+}
+
+.top-left {
+  justify-content: space-between;
+}
