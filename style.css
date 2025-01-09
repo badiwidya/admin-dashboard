@@ -33,6 +33,7 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 160px 1fr;
   height: 100%;
+  background: #333333;
   color: white;
 }
 
@@ -106,7 +107,7 @@ body {
 .top-header-section {
   display: grid;
   grid-template-columns: max(80%, 10rem) 1fr;
-  padding: 4px 2rem;
+  padding: 16px 2rem;
 }
 
 .top-left,
@@ -123,7 +124,7 @@ body {
 #search-box {
   appearance: none;
   height: 35px;
-  width: 80%;
+  width: 90%;
   border: none;
   border-radius: 26px;
   background-color: #5f5f5f;
@@ -153,4 +154,21 @@ body {
 
 .top-left {
   justify-content: space-between;
+}
+
+.top-right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
 }
