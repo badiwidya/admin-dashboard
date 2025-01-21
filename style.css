@@ -163,7 +163,7 @@ body {
   font-weight: 600;
 }
 
-.small {
+.profile-container.small {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,3 +172,41 @@ body {
   width: 45px;
   border: 2px solid white;
 }
+
+.bottom-header-section {
+  display: grid;
+  grid-template-columns: max(60%, 10rem) 1fr;
+}
+
+.bottom-left {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.header-text {
+  p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+  h4 {
+    font-weight: 700;
+    margin-top: -5px;
+    font-size: 1.5rem;
+  }
+
+}
+
+.profile-container.medium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 2px solid white;
+  
+}
+
