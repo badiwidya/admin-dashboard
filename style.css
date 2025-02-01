@@ -31,7 +31,7 @@ body {
   grid-template-areas: "side header"
                        "side main";
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 160px 1fr;
+  grid-template-rows: 11rem 1fr;
   height: 100%;
   background: #333333;
   color: white;
@@ -109,7 +109,7 @@ body {
 .top-header-section {
   display: grid;
   grid-template-columns: max(80%, 10rem) 1fr;
-  padding: 16px 2rem;
+  padding: 0 2rem;
 }
 
 .top-left,
@@ -225,5 +225,14 @@ body {
   border-radius: 2rem;
   border: none;
   box-shadow: none;
-  background-color: #74c7ec;
+  background-color:#89b4fa;
+  color: #1e1e2e;
+  font-weight: 500;
+  font-size: 1rem;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid #89b4fa;
+    cursor: pointer;
+    color: white;
+  }
 }
